@@ -37,12 +37,13 @@ Le, M.H., Nguyen Q.B., Pham, H.T., Patil, A.A., Do H.X., Ramsankaran R., Bolten,
  * R software 
 
 ## Datasets
-Data needed for this code is available at https://drive.google.com/drive/u/1/folders/1nIzLyRCBKgl3f2tGvXgSKBOGqTj7qs3X
-You can download these datasets and change path folder in the code accordingly.
- 0_inputPreparation: folder contains datasets for step 0, step 1, step 2, step 3, and step 4
- rasters_precip: folder contains daily precipitation from GPM IMERG Final run (in .tif format), which requires for step 5
- rasters_airtemp: folder contains daily maximum and minimum air temperature from CFSV2 (in .tif format), which requires for step 6
- demo_results: completely input files after running this code (for reference).
+* Data needed for this code is available at https://drive.google.com/drive/u/1/folders/1nIzLyRCBKgl3f2tGvXgSKBOGqTj7qs3X
+* You can download these datasets and change path folder in the code accordingly.
+* Folder explaination:
+  * 0_inputPreparation: folder contains datasets for step 0, step 1, step 2, step 3, and step 4
+  * rasters_precip: folder contains daily precipitation from GPM IMERG Final run (in .tif format), which requires for step 5
+  * rasters_airtemp: folder contains daily maximum and minimum air temperature from CFSV2 (in .tif format), which requires for step 6
+  * demo_results: completely input files after running this code (for reference).
  
 ## Step by steps
 
