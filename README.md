@@ -8,29 +8,24 @@ The hydrological SWAT model, like other semi-distributed hydrological models, re
 
 ## Datasets and SWAT version
 Forcing inputs include:
-1. Catchment Attributes
-  * Digital elevation model (hydroshed dem)
-  * Land use (modis land use) 
-  * Soil (FAO) 
-They are used to
- * delinate watershed (dem) 
- * create hydrologic response unit (hru) (dem, land use, soil) 
-2. Climatic Datasets
-  * Daily precipitation (GPM IMERG Final run)
-  * Daily air maximum and minimum tempeature (CFSV2)
-They are used as
- * forcing input in SWAT Editor 
-These forcing inputs have been tested successfully with 
- * QGIS 2.61 and QSWAT v1.7, and SWAT Editor 2012.10_5.21 
- 
-Demo data in this code is from Le et al. 2022 (see Citations section)
+ * Catchment Attributes
+   * Digital elevation model (hydroshed dem)
+   * Land use (modis land use) 
+   * Soil (FAO) 
+   * They are used to: delinate watershed (dem), and create hydrologic response unit (hru) (dem, land use, soil) 
+* Climatic Datasets
+   * Daily precipitation (GPM IMERG Final run)
+   * Daily air maximum and minimum tempeature (CFSV2)
+   * They are used as forcing input in SWAT Editor 
+ * These forcing inputs have been tested successfully with QGIS 2.61 and QSWAT v1.7, and SWAT Editor 2012.10_5.21 
+ * Demo data in this code is from Le et al. 2022 (see Citations section)
 
 ## Citations
 If you find my codes useful, please cite the following papers:
 
-Le, M. H., Lakshmi, V., Bolten, J., & Bui, D. D. (2020). Adequacy of Satellite-derived Precipitation Estimate for Hydrological modeling in Vietnam Basins. Journal of Hydrology, 124820
+* Le, M. H., Lakshmi, V., Bolten, J., & Bui, D. D. (2020). Adequacy of Satellite-derived Precipitation Estimate for Hydrological modeling in Vietnam Basins. Journal of Hydrology, 124820
 
-Le, M.H., Nguyen Q.B., Pham, H.T., Patil, A.A., Do H.X., Ramsankaran R., Bolten, J.& Lakshmi, V (2022). Assimilation of SMAP products in streamflow simulations – Is spatial information more important than temporal information. Remote Sensing, 14(7), 1607
+* Le, M.H., Nguyen Q.B., Pham, H.T., Patil, A.A., Do H.X., Ramsankaran R., Bolten, J.& Lakshmi, V (2022). Assimilation of SMAP products in streamflow simulations – Is spatial information more important than temporal information. Remote Sensing, 14(7), 1607
 
 ## Software requirements
  * Shapefile of your study area (optional) or general coordinations of your study area (in latitude, longitude)
