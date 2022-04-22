@@ -53,10 +53,11 @@ If you find my codes useful, please cite the following papers:
 * <03_2_swatInput_catchatr_lu_multi.r>: create land cover input datasets for mutiple SWAT projects from a land use data in step 03_1
 4. Soil preparation
 * <04_1_preProcessing_soil_fao.r> from a source of soil data (geographical coordinates, WGS 84), preparing  soil meta data with SWAT formart
+* After running 04_1, you will have soilreclassification.csv. Use this csv file to create usersoil (for SWAT 2012) version with a template founded in usersoil_fao_vnbasin_final.xls.
 * <04_2_swatInput_catchatr_soil_multi.r> create soil input datasets for mutiple SWAT projects from the soil data in step 04_1
 5. Precipitation
-* <05_1_dataPreprocessing_precipExtraction_imerg_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate rainfall timeseries for each subbasin (at subbasin's centroid).
+* <05_1_dataPreprocessing_precipExtraction_imerg_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate rainfall timeseries for each subbasin (at subbasin's centroid). The subbasins in 0_inputPrepration/knownSubbasins are required for 05_1
 * <05_2_swatInput_climaticdat_rainformat_imerg_multi.r> this step create rainfall timeseries with SWAT format. 
 6. Air temperature
-* <06_1_dataPreprocessing_airtempExtraction_ncep_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate air temperature (maximum and minimum) timeseries for each subbasin (at subbasin's centroid).
+* <06_1_dataPreprocessing_airtempExtraction_ncep_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate air temperature (maximum and minimum) timeseries for each subbasin (at subbasin's centroid). The subbasins in 0_inputPrepration/knownSubbasins are required for 06_1
 * <06_2_swatInput_climaticdat_airtemp_ncep_multi.r> this step create air temperature timeseries with SWAT format. 
