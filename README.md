@@ -12,7 +12,7 @@ Forcing inputs include:
    * Digital elevation model (hydroshed dem)
    * Land use (modis land use) 
    * Soil (FAO) 
-   * They are used to: delinate watershed (dem), and create hydrologic response unit (hru) (dem, land use, soil) 
+   * They are used to: delinate watershed (dem), and create hydrologic response unit (hru) (dem, land use, soil) when you use QGIS and QSWAT to initally setup the SWAT model.
 * Climatic Datasets
    * Daily precipitation (GPM IMERG Final run)
    * Daily air maximum and minimum tempeature (CFSV2)
