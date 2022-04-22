@@ -49,18 +49,18 @@ You can download these datasets and change path folder in the code accordingly.
 0. Folder creation
 <run 00_swatFoldercreation_multi.r>: automatically create folders for different SWAT projects
 1. Get to know your study
-<01_getKnowyourStudy_multi.r>: create a "study box" for different SWAT projects. All catchment attributes (DEM, land cover, soil) will be extracted for that "study box".
+* <01_getKnowyourStudy_multi.r>: create a "study box" for different SWAT projects. All catchment attributes (DEM, land cover, soil) will be extracted for that "study box".
 2. DEM preparation
-<02_swatInput_catchatr_dem_multi.r>: create DEM input datasets for mutiple SWAT projects from a DEM source (geographical coordinates, WGS 84).
+* <02_swatInput_catchatr_dem_multi.r>: create DEM input datasets for mutiple SWAT projects from a DEM source (geographical coordinates, WGS 84).
 3. Land cover preparation
-<03_1_preProcessing_landuse_modis.r>: from a source of Land cover (geographical coordinates, WGS 84), preparing a land use meta data with SWAT format
-<03_2_swatInput_catchatr_lu_multi.r>: create land cover input datasets for mutiple SWAT projects from a land use data in step 03_1
+* <03_1_preProcessing_landuse_modis.r>: from a source of Land cover (geographical coordinates, WGS 84), preparing a land use meta data with SWAT format
+* <03_2_swatInput_catchatr_lu_multi.r>: create land cover input datasets for mutiple SWAT projects from a land use data in step 03_1
 4. Soil preparation
-<04_1_preProcessing_soil_fao.r> from a source of soil data (geographical coordinates, WGS 84), preparing  soil meta data with SWAT formart
-<04_2_swatInput_catchatr_soil_multi.r> create soil input datasets for mutiple SWAT projects from the soil data in step 04_1
+* <04_1_preProcessing_soil_fao.r> from a source of soil data (geographical coordinates, WGS 84), preparing  soil meta data with SWAT formart
+* <04_2_swatInput_catchatr_soil_multi.r> create soil input datasets for mutiple SWAT projects from the soil data in step 04_1
 5. Precipitation
-<05_1_dataPreprocessing_precipExtraction_imerg_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate rainfall timeseries for each subbasin (at subbasin's centroid).
-<05_2_swatInput_climaticdat_rainformat_imerg_multi.r> this step create rainfall timeseries with SWAT format. 
+* <05_1_dataPreprocessing_precipExtraction_imerg_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate rainfall timeseries for each subbasin (at subbasin's centroid).
+* <05_2_swatInput_climaticdat_rainformat_imerg_multi.r> this step create rainfall timeseries with SWAT format. 
 6. Air temperature
-<06_1_dataPreprocessing_airtempExtraction_ncep_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate air temperature (maximum and minimum) timeseries for each subbasin (at subbasin's centroid).
-<06_2_swatInput_climaticdat_airtemp_ncep_multi.r> this step create air temperature timeseries with SWAT format. 
+* <06_1_dataPreprocessing_airtempExtraction_ncep_knownShp_multi.r> this step is option, it can only work if you delinate watersheds and have subbasins for your catchments. It can help you to estimate air temperature (maximum and minimum) timeseries for each subbasin (at subbasin's centroid).
+* <06_2_swatInput_climaticdat_airtemp_ncep_multi.r> this step create air temperature timeseries with SWAT format. 
