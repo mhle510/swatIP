@@ -50,7 +50,7 @@ If you find my codes useful, please cite the following papers:
 * <02_swatInput_catchatr_dem_multi.r>: create DEM input datasets for mutiple SWAT projects from a DEM source (geographical coordinates, WGS 84).
 3. Land cover preparation
 * <03_1_preProcessing_landuse_modis.r>: from a source of Land cover (geographical coordinates, WGS 84), preparing a land use meta data with SWAT format
-* <03_2_swatInput_catchatr_lu_multi.r>: create land cover input datasets for mutiple SWAT projects from a land use data in step 03_1
+* <03_2_swatInput_catchatr_lu_multi.r>: create land cover input datasets for mutiple SWAT projects from the land use data in step 03_1
 4. Soil preparation
 * <04_1_preProcessing_soil_fao.r> from a source of soil data (geographical coordinates, WGS 84), preparing  soil meta data with SWAT formart
 * After running 04_1, you will have soilreclassification.csv. Use this csv file to create usersoil (for SWAT 2012) version with a template founded in usersoil_fao_vnbasin_final.xls.
