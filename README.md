@@ -21,7 +21,7 @@ Forcing inputs include:
  * Demo data in this code is from Le et al. 2022 (see Citations section)
 
 ## Citations
-If you find my codes useful, please cite the following papers:
+If you find my codes useful, please stars, and cite related references as below:
 
 * Le, M. H., Lakshmi, V., Bolten, J., & Bui, D. D. (2020). Adequacy of Satellite-derived Precipitation Estimate for Hydrological modeling in Vietnam Basins. Journal of Hydrology, 124820
 
