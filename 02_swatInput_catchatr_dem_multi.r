@@ -1,6 +1,8 @@
 ####################################################################################
 # Manh-Hung Le - 2021 June 20
 # objectives:
+# - extract dem information for each basin given known its study box 
+# - convert dem projection from geographic coordinates (wgs 84) to projected coordinates (utm 48n)
 ####################################################################################
 
 library(rgdal)
