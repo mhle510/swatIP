@@ -17,13 +17,13 @@ library(parallel)
 library(tictoc)
 
 # swat folder
-maindir = 'D:/multiSwat_inputPre'
+maindir = 'XXX/multiSwat_inputPre'
 basinNames = c('gvo','aho','bye','slu', 'chu','gso','nkh','xla')
 riverSystems = c('sk', 'sk','mk','sk','ht','mk','ca','ma')
 nb = length(basinNames)
 
 # temp folder
-airtempPath = 'E:/GlobalMet/CFSv2_vnbasins'
+airtempPath = 'XXX/CFSv2_vnbasins'
 txFiles = list.files(paste(airtempPath,'/','tmax',sep = ''), pattern = '.tif', full.names = T,recursive = T)
 tmFiles = list.files(paste(airtempPath,'/','tmin',sep = ''), pattern = '.tif', full.names = T,recursive = T)
 nd = length(txFiles)
