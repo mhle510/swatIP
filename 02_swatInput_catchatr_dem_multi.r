@@ -12,7 +12,7 @@ library(sp)
 library(readxl)
 
 # path setup
-maindir = 'D:/multiSwat_inputPre'
+maindir = 'XXX/multiSwat_inputPre'
 basinNames = c('gvo','chu','xla','gso','nkh', 'slu','bye','aho')
 riverSystems = c('sk', 'ht','ma','mk','ca','sk','mk','sk')
 nb = length(basinNames)
