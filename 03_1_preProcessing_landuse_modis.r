@@ -11,7 +11,7 @@ library(sp)
 library(sf)
 library(ggplot2)
 # setup path
-maindir = 'D:/multiSwat_inputPre'
+maindir = 'XXX/multiSwat_inputPre'
 rawlu = raster(file.path(maindir, '0_inputPreparation/rawlu/lu2016.tif'))
 metaData = readxl::read_xlsx(file.path(maindir, '0_inputPreparation/rawlu/modis_landuse_metaData.xlsx'),sheet = 'IGBP_classification')
 newmetaData = readxl::read_xlsx(file.path(maindir, '0_inputPreparation/rawlu/modis_landuse_metaData.xlsx'),sheet = 'IGBP_SWAT_classification')
