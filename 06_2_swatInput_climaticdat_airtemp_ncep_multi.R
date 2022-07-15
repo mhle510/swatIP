@@ -11,7 +11,7 @@ library(sf)
 library(psych)
 library(tidyverse)
 # swat folder
-maindir = 'D:/multiSwat_inputPre'
+maindir = 'XXX/multiSwat_inputPre'
 basinNames = c('gvo','aho','bye','slu', 'chu','gso','nkh','xla')
 riverSystems = c('sk', 'sk','mk','sk','ht','mk','ca','ma')
 nb = length(basinNames)
