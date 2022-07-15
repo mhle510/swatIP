@@ -12,7 +12,7 @@ library(sp)
 library(ggplot2)
 library(colorRamps)
 
-maindir = 'D:/multiSwat_inputPre'
+maindir = 'XXX/multiSwat_inputPre'
 rawsoil = raster(file.path(maindir, '0_inputPreparation/rawsoil/hwsd_crop/hdr.adf'))
 
 dir.create(file.path(maindir,'0_inputPreparation','processedsoil'), showWarnings = F)
