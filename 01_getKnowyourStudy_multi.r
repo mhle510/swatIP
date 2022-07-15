@@ -10,7 +10,7 @@ library(tidyverse)
 library(sp)
 library(readxl)
 # path setup
-maindir = 'D:/multiSwat_inputPre'
+maindir = 'XXX/multiSwat_inputPre'
 # basin name and river system (pair one to one)
 basinNames = c('gvo','aho','bye','slu', 'chu','gso','nkh','xla')
 riverSystems = c('sk', 'sk','mk','sk','ht','mk','ca','ma')
