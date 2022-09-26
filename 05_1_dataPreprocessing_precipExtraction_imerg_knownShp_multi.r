@@ -24,7 +24,7 @@ riverSystems = c('sk', 'sk','mk','sk','ht','mk','ca','ma')
 nb = length(basinNames)
 
 # precip folder
-pretifPath = 'F:/GlobalRainfall/processed_imergf_vnbasins'
+pretifPath = 'xxx/processed_imergf_vnbasins'
 years = seq(2010,2019,1)
 preFiles = list.files(paste(pretifPath,'/',years,sep = ''), pattern = '.tif', full.names = T,recursive = T)
 nd = length(preFiles)
